@@ -6,7 +6,7 @@ router.post('/addProperty', propertyController.upload , propertyController.addPr
 
 router.get('/allProperty', propertyController.getALlProperty)
 
-router.get('/allProperty/:search', propertyController.getALlProperty)
+
 
 router.get('/:id', propertyController.getOneProperty)
 
